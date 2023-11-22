@@ -208,6 +208,3 @@ class ParserDDL:
 parser = ParserDDL(path="D:\\TEST")
 parser.get_connection()
 parser.process('167084041')
-
-    file_processor = FileProcessor(dir_in, dir_out, dir_save)
-    file_processor.process_run()6f93
