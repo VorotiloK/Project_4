@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 from atlassian.confluence import Confluence
 import urllib3
@@ -400,5 +399,4 @@ if __name__ == '__main__':
     dir_save = '/raw_data/source_08_rnis/files/spark_save'
 
     file_processor = FileProcessor(dir_in, dir_out, dir_save)
-    file_processor.process_run()
->>>>>>> 76f8080f466c3a4b4d0c537b72f1ca5637096f93
+    file_processor.process_run()6f93
